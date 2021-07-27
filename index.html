@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IAI ZADANIE - FRONT</title>
+    <meta name="description" content="">
+    <meta name="author" content="Patryk Garstecki">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/vendor/splide/css/splide.min.css">
+</head>
+
+<body>
+    <div id="page-holder">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWindow">
+            Uruchom Pop-up
+          </button>
+    </div>
+
+    <div class="modal fade" id="modalWindow" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="15.135" height="15.13" viewBox="0 0 15.135 15.13">
+                            <path id="close_1_" data-name="close (1)" d="M10.065,7.566l4.682-4.681a1.323,1.323,0,0,0,0-1.872L14.123.389a1.324,1.324,0,0,0-1.873,0L7.568,5.069,2.886.388a1.324,1.324,0,0,0-1.873,0l-.625.624a1.323,1.323,0,0,0,0,1.872L5.071,7.566.389,12.246a1.323,1.323,0,0,0,0,1.872l.624.624a1.324,1.324,0,0,0,1.873,0l4.682-4.681,4.682,4.681a1.324,1.324,0,0,0,1.873,0l.624-.624a1.323,1.323,0,0,0,0-1.872Zm0,0" transform="translate(0 0)" fill="#2b2b2b"/>
+                          </svg>
+                          </span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="get" action="index.html">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 productImage">
+
+                                <div class="splide">
+                                    <div class="splide__track">
+                                        <ul class="splide__list">
+                                            <li class="splide__slide">
+                                                <img src="./assets/images/xbox1.jpg" alt="Xbox" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="./assets/images/xbox2.jpg" alt="Xbox" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="./assets/images/xbox3.jpg" alt="Xbox" />
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-7 productDescription">
+                                <h1 class="productName"></h1>
+
+                                <p class="productPrice"></p>
+
+                                <p class="productOptionTitle">Rozmiar:</p>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons" id="variantsSelect">
+                                    <label class="btn btn-outline active optionButton">
+                                  <input type="radio" name="options" id="0" autocomplete="off" checked> Default
+                                </label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="multiversionsSelect" class="productmultiversionsTitle">Wariant:</label>
+                                    <select name="variant" class="form-control multiversionsControl" id="multiversionsSelect">
+                                  <option>Default</option>
+                                </select>
+                                </div>
+
+                                <div class="row productStatusRow">
+                                    <div class="col-sm-12 col-md-5 productStatus">
+
+                                    </div>
+                                    <div class="col-sm-12 col-md-7 productShipment">
+                                        <span class="productShipmentLeft"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15.896" viewBox="0 0 15 15.896" class="timeIcon">
+                                        <path id="delivery-time-tool" d="M14.59,4.181l-.477.477a6.828,6.828,0,1,1-12,5.119H1.443a.529.529,0,0,1-.461-.795L2.476,6.375a.536.536,0,0,1,.922,0L4.893,8.982a.527.527,0,0,1-.445.795H3.859a5.079,5.079,0,1,0,2.226-4.96.907.907,0,0,1-1.208-.159A.879.879,0,0,1,5.083,3.4,6.708,6.708,0,0,1,8.056,2.289V1.3h-.7A.427.427,0,0,1,6.928.874V.429A.427.427,0,0,1,7.357,0h3.227a.427.427,0,0,1,.429.429V.874a.427.427,0,0,1-.429.429H9.821v1a6.687,6.687,0,0,1,3.593,1.637l.429-.445-.318-.3a.432.432,0,0,1-.016-.62l.334-.366a.448.448,0,0,1,.62-.032l1.3,1.208a.448.448,0,0,1,.032.62l-.35.366a.447.447,0,0,1-.62.032l-.238-.223ZM9.853,8.156a1.372,1.372,0,0,0-2.13.223,1.343,1.343,0,0,0,0,1.51,1.366,1.366,0,0,0,1.59.541l1.733,1.415a.356.356,0,0,0,.509-.493L10.155,9.6a1.4,1.4,0,0,0-.3-1.447Z" transform="translate(-0.908)"/>
+                                      </svg></span><span class="productShipmentRight">Możemy wysłać już dzisiaj! <br><a href="#">Sprawdź czasy i koszty wysyłki</a></span>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-5">
+                                        <div class="form-group qty-form">
+                                            <div class="qtyButton" id="qtyMinus"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="19" viewBox="0 0 6 19">
+                                            <text id="_-" data-name="-" transform="translate(0 15)" fill="#474747" font-size="17" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">-</tspan></text>
+                                          </svg>
+                                            </div>
+                                            <label for="productQty"></label>
+                                            <input type="text" class="form-control qtyInput" readonly id="productQty" name="qty" value="1">
+                                            <div class="qtyButton" id="qtyPlus"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="19" viewBox="0 0 10 19">
+                                            <text id="_" data-name="+" transform="translate(0 15)" fill="#474747" font-size="17" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+                                          </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7">
+                                        <button type="submit" class="btn btnAddToBasket">Dodaj do koszyka</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/vendor/splide/js/splide.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

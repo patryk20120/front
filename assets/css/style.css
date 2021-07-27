@@ -1,0 +1,202 @@
+    /******
+#0090F6 - niebieski
+#333333 - tekst 
+#C3C7C8 - ramki szare
+********/
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333333;
+    }
+    
+    #page-holder {
+        padding: 15px;
+    }
+    
+    .modal-header {
+        border-bottom: none;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        z-index: 999;
+    }
+    
+    .modal-body {
+        padding: 30px 25px;
+    }
+    
+    .modal-content {
+        border: none;
+    }
+    
+    .optionButton:not(:first-child) {
+        margin-left: 10px !important;
+    }
+    
+    .optionButton {
+        border-radius: 5px !important;
+        box-shadow: none !important;
+        background-color: white !important;
+        border-color: #C3C7C8;
+        color: #333333;
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+    
+    .multiversionsControl {
+        color: #333333;
+        font-size: 12px !important;
+    }
+    
+    .btn-group-toggle .active {
+        border: 2px solid #0090F6 !important;
+        color: #333333 !important;
+    }
+    
+    .iconSize {
+        height: 14px;
+        width: auto;
+    }
+    
+    .productDescription .productName {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .productDescription .productPrice {
+        font-size: 16px;
+        font-weight: bold;
+        color: #0090F6;
+    }
+    
+    .productDescription .productOptionTitle {
+        font-size: 13px;
+        margin: 0;
+        padding: 0 0 5px 0;
+    }
+    
+    .productDescription .productmultiversionsTitle {
+        font-size: 13px;
+        margin: 15px 0 0 0;
+        padding: 0 0 5px 0;
+    }
+    
+    .productShipment {
+        font-size: 13px;
+    }
+    
+    .productShipmentLeft {
+        float: left;
+        width: 15px;
+        text-align: left;
+    }
+    
+    .productShipmentRight {
+        float: left;
+        width: calc(100% - 15px);
+        padding-left: 19px;
+    }
+    
+    .timeIcon {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .productStatus {
+        font-size: 13px;
+        padding-left: 0;
+    }
+    
+    .productStatusRow {
+        margin: 20px 0;
+    }
+    
+    .qtyInput {
+        border: none;
+        outline: none !important;
+        box-shadow: none !important;
+        background-color: white !important;
+        width: calc(100% - 30px);
+        display: inline;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .qtyButton {
+        width: 15px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        display: inline;
+        cursor: pointer;
+    }
+    
+    .qty-form {
+        border: 1px solid #C3C7C8;
+        border-radius: 10px;
+        width: 100%;
+        padding: 5px 20px;
+        height: 50px;
+    }
+    
+    .btnAddToBasket {
+        background-color: #0090F6;
+        color: white;
+        height: 50px;
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .splide__slide img {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    @media only screen and (min-width: 769px) {
+        .splide {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        .productStatus {
+            padding-top: 10px;
+        }
+    }
+    
+    .splide__slide {
+        width: 100% !important;
+    }
+    
+    .splide__list {
+        width: 100% !important;
+    }
+    
+    .splide__arrow {
+        background: none !important;
+    }
+    
+    .splide__arrow--prev {
+        left: 0 !important;
+    }
+    
+    .splide__arrow--next {
+        right: 0 !important;
+    }
